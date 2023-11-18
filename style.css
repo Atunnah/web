@@ -92,7 +92,7 @@
        flex-wrap: wrap;
     }
 
-    #services .item {
+    #services .card {
         width: calc(94% / 2);
     }
     /* Contact */
@@ -206,7 +206,7 @@
        flex-wrap: wrap;
     }
 
-    #services .item {
+    #services .card {
         width: calc(94% / 2);
     }
     /* Contact */
