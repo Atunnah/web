@@ -231,7 +231,7 @@
 /* Mobile */
 @media screen and (min-width: 320px) and (max-width: 480px) {
     /* Header */
-    #home > div:nth-child(2) {
+    #home .flex-column {
         width: 100%;
         align-items: center;
         left: 0;
