@@ -7,18 +7,17 @@
 
 /* Tablet */
 @media screen and (min-width: 768px) and (max-width: 1024px) {
-    /* Header */
-    #nav > div:nth-child(2) {
+    #home > div:nth-child(2) {
         width: 100%;
         align-items: center;
         left: 0;
     }
 
-    #nav .name {
+    #home .name {
         font-size: 32px;
     }
 
-    #nav .intro {
+    #home .intro {
         font-size: 20px;
     }
 
@@ -122,18 +121,17 @@
 
 /* Small tablet */
 @media screen and (min-width: 480px) and (max-width: 768px) {
-    /* Header */
-    #nav > div:nth-child(2) {
+    #home > div:nth-child(2) {
         width: 100%;
         align-items: center;
         left: 0;
     }
 
-    #nav .name {
+    #home .name {
         font-size: 32px;
     }
 
-    #nav .intro {
+    #home .intro {
         font-size: 20px;
     }
 
