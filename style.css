@@ -321,6 +321,10 @@
         margin-right: 0;
     }
 
+    service ul {
+        width: 100%;
+    }
+    
     #service ul li {
         width: 100%;
     }
