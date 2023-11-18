@@ -316,16 +316,12 @@
     }
 
     /* Services */
-    #services > div {
+    #service > div {
         flex-direction: column;
         margin-right: 0;
     }
 
-    #service ul {
-        margin-right: 50px;
-    }
-
-    #services ul li {
+    #service ul li {
         width: 100%;
     }
     /* Contact */
