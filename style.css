@@ -231,17 +231,17 @@
 /* Mobile */
 @media screen and (min-width: 320px) and (max-width: 480px) {
     /* Header */
-    #nav > div:nth-child(2) {
+    #home > div:nth-child(2) {
         width: 100%;
         align-items: center;
         left: 0;
     }
 
-    #nav .name {
+    #home .name {
         font-size: 32px;
     }
 
-    #nav .introduce {
+    #home .introduce {
         font-size: 20px;
     }
 
