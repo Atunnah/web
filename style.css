@@ -52,7 +52,7 @@
         align-items: center;
     }
 
-    #about .avt {
+    #about .avatar {
         margin-right: 0;
     }
 
@@ -109,12 +109,12 @@
         padding: 30px 12px;
     }
 
-    .footer .footer__desc {
+    .footer p {
         margin: 15px 0 40px;
         font-size: 14px;
     }
     /* Scroll to top */ 
-    .scroll {
+    .scroll-to-top {
         width: 50px;
         height: 50px;
     }
@@ -123,21 +123,21 @@
 /* Small tablet */
 @media screen and (min-width: 480px) and (max-width: 768px) {
     /* Header */
-    #header > div:nth-child(2) {
+    #nav > div:nth-child(2) {
         width: 100%;
         align-items: center;
         left: 0;
     }
 
-    #header .name {
+    #nav .name {
         font-size: 32px;
     }
 
-    #header .introduce {
+    #nav .intro {
         font-size: 20px;
     }
 
-    .introduce span {
+    .intro span {
         font-size: 20px;
         top: 8px;
         animation: typing 2.5s steps(27, end) infinite alternate, blinking 0.5s infinite;
@@ -224,7 +224,7 @@
         padding: 30px 12px;
     }
 
-    .footer .footer__desc {
+    .footer p {
         margin: 15px 0 40px;
         font-size: 14px;
     }
@@ -233,21 +233,21 @@
 /* Mobile */
 @media screen and (min-width: 320px) and (max-width: 480px) {
     /* Header */
-    #header > div:nth-child(2) {
+    #nav > div:nth-child(2) {
         width: 100%;
         align-items: center;
         left: 0;
     }
 
-    #header .name {
+    #nav .name {
         font-size: 32px;
     }
 
-    #header .introduce {
+    #nav .introduce {
         font-size: 20px;
     }
 
-    .introduce span {
+    .intro span {
         font-size: 20px;
         top: 7px;
         animation: typing 2.5s steps(27, end) infinite alternate, blinking 0.5s infinite;
@@ -258,7 +258,7 @@
         80%, 95%, 100% { width: 170px }
     }
 
-    #header .links a {
+    #nav .links a {
         font-size: 18px;
     }
     /* Nav */
@@ -280,7 +280,7 @@
         align-items: center;
     }
 
-    #about .avt {
+    #about .avatar {
         margin-right: 0;
     }
 
@@ -335,7 +335,7 @@
         padding: 30px 12px;
     }
 
-    .footer .footer__desc {
+    .footer p {
         font-size: 14px;
     }
 }
@@ -344,6 +344,10 @@
     --primary-color: #0563bb;
     --text-color: #272829;
     --header-color: #45505b;
+}
+
+#nav-mt {
+    display: none;
 }
 
 body {
